@@ -1,0 +1,61 @@
+@media (max-width: 700px) {
+    .main-section-div{
+        display: none;
+    }
+    .div-externa-main{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .nav-top{   
+        display:contents;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        background-color: black;
+        
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+
+        margin-inline-start: 38%;
+    }
+
+    .section-main{
+        width: 20.5rem;
+    }
+    .section-conta{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .botao-entrar{
+        opacity: 0.5;
+        background: rgb(86, 86, 86);
+    
+        width: 35%;
+        margin: 0.5rem auto 0.5rem;
+    
+        border-radius: 30px;
+        border: 0px;
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: rgb(86, 86, 86);
+        color: rgb(255, 255, 255);
+        position: relative;
+        cursor: pointer;
+        transition: all 0.2s ease 0s;
+    }
+  }
